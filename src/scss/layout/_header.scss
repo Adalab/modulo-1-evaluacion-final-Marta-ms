@@ -1,7 +1,64 @@
+
 .header {
-    background-color: rgb(58, 110, 58);
-    position: sticky;
-    top: 0;
+    background-image: url(./public/images/niña-portada-v.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 500px;
+    
 
 }
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: rgb(58, 110, 58) ;
+}
+
+.header-text {
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.50;
+    letter-spacing: normal;
+    text-align: center;
+    align-items: center;
+}
+
+.header img {
+
+}
+
+
+
+
+
+
+
+
+
+
+// .navbar {
+//     display: inline-block;
+//     background-color: rgb(58, 110, 58);
+//     position: sticky;
+//     top: 0;
+
+// }
+
+// .navbar a {
+//     display: inline-flex;
+//     padding: 10px;
+// }
+
+// .navbar a:hover {
+//     background-color: grey;
+// }
 
