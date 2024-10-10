@@ -1,64 +1,62 @@
 
 .header {
-    background-image: url(./public/images/niña-portada-v.jpg);
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    background-image: url(../images/niña-portada.jpeg);
     background-size: cover;
     background-position: bottom right;
     background-repeat: no-repeat;
-    height: 500px;
-    
+    width:100%;
 
 }
 
-
-.navbar {
+.menu {
     position: fixed;
     top: 0;
     left: 0;
     padding: 10px;
-    color: rgb(58, 110, 58) ;
+    background-color: #6c933e;
 }
 
-.header-text {
+.title {
     color: white;
     font-family: "Roboto Slab";
     font-size: 20px;
     font-weight: bold;
     line-height: 1.50;
     letter-spacing: normal;
-    text-align: center;
     align-items: center;
-}
-
-.header img {
+    text-align: center;
 
 }
 
+.subtitle {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    margin: 30px 35px;
+}
+
+.down {
+    width: 35px;
+    height: 35px;
+    margin: 30px auto;
+}
+.button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.button:hover {
+    background-color: grey;
+}
 
 
 
-
-
-
-
-
-
-// .navbar {
-//     display: inline-block;
-//     background-color: rgb(58, 110, 58);
-//     position: sticky;
-//     top: 0;
-
-// }
-
-// .navbar a {
-//     display: inline-flex;
-//     padding: 10px;
-// }
-
-// .navbar a:hover {
-//     background-color: grey;
-// }
 

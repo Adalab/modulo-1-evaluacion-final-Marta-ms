@@ -1,1 +1,42 @@
-// tienda de deporte
+.main  {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+    font-family: ""
+
+}
+
+.about {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 1.5rem;
+
+}
+
+.vuelta-cole {
+
+}
+
+.title {
+    font-family: "RobotoSlab";
+    font-size: 12px;
+    align-items: center;
+    line-height: 30px;
+
+}
+
+.subtitle {
+    font-family: "RobotoSlab";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.diferents-produts p {
+    font-family: "RobotoSlab";
+    font-size: 14px;
+    
+}

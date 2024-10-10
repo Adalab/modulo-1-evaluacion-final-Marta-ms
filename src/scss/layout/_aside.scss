@@ -1,4 +1,36 @@
+.aside {
+    padding: 10px;
+    background-color:#d9e4cc ;
+    position: relative;
+}
+
 .products {
-    width: 100%;
+    text-align: center;
+    
+}
+
+.products img {
+    width: 50px;
+    position: absolute;
+}
+
+.title-products p {
+    font-size: 20px;
+    $font-family-primary: "Roboto", sans-serif;
+
+}
+
+.title-products h3 {
+    font-size: 30px;
+    $font-family-primary: "Roboto", sans-serif;
+}
+
+.diferents-products {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.backpack img {
+    width: 200px;
 }
